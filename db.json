@@ -1,0 +1,56 @@
+{
+  "users": [
+    {
+      "email": "zahidhasan2806@gmail.com",
+      "password": "$2a$10$gl74/49BkqLn9auHt8ev6.Uo3pBDHW4tN83xpDdahWhaz3IJydacm",
+      "name": "MD Zahid Hasan",
+      "id": 1
+    },
+    {
+      "email": "incognito@gmail.com",
+      "password": "$2a$10$NDesdGaM/wldJc9vkcHtSebBPUVQB330.cfQ1vzXnIbPO/Pjjg6ee",
+      "name": "Incognito",
+      "id": 2
+    }
+  ],
+  "conversations": [
+    {
+      "participants": "zahidhasan2806@gmail.com-incognito@gmail.com",
+      "users": [
+        {
+          "email": "zahidhasan2806@gmail.com",
+          "name": "MD Zahid Hasan",
+          "id": 1
+        },
+        {
+          "email": "incognito@gmail.com",
+          "password": "$2a$10$NDesdGaM/wldJc9vkcHtSebBPUVQB330.cfQ1vzXnIbPO/Pjjg6ee",
+          "name": "Incognito",
+          "id": 2
+        }
+      ],
+      "message": "Hello! This is Zahid",
+      "timestamp": 1663519278601,
+      "id": 1
+    }
+  ],
+  "messages": [
+    {
+      "conversationId": 1,
+      "sender": {
+        "email": "zahidhasan2806@gmail.com",
+        "name": "MD Zahid Hasan",
+        "id": 1
+      },
+      "receiver": {
+        "email": "incognito@gmail.com",
+        "password": "$2a$10$NDesdGaM/wldJc9vkcHtSebBPUVQB330.cfQ1vzXnIbPO/Pjjg6ee",
+        "name": "Incognito",
+        "id": 2
+      },
+      "message": "Hello! This is Zahid",
+      "timestamp": 1663519278601,
+      "id": 1
+    }
+  ]
+}
